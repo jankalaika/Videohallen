@@ -7,32 +7,36 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="header-container">
-      <header>
+    <div class="header-container">
+      <header class="main-header">
         <h1>
           <a href="index.html"> <span>Video</span>hallen</a>
         </h1>
         <nav>
-          <ul id="nav-ul">
+          <ul class="nav-ul">
             <li><a href="index.html">Home</a></li>
             <li><a href="">Movies</a></li>
-            <li><a href="">My Account</a></li>
+            <li><a href="my-account.html">My Account</a></li>
           </ul>
         </nav>
       </header>
     </div>
-    <div id="main-container">
-      <section>
-        <input type="search" placeholder="Search for movie" />
-        <button>Search</button>
-        <ul id="aside-ul">
-          <li><a href="">Action</a></li>
-          <li><a href="">Comedy</a></li>
-          <li><a href="">Horror</a></li>
-          <li><a href="">Disney</a></li>
+    <div class="main-container">
+      <aside class="search-aside">
+        <input
+          class="search-input"
+          type="search"
+          placeholder="Search for movie"
+        />
+        <button class="search-button">Search</button>
+        <ul class="aside-ul">
+          <li class="aside-li"><a href="">Action</a></li>
+          <li class="aside-li"><a href="">Comedy</a></li>
+          <li class="aside-li"><a href="">Horror</a></li>
+          <li class="aside-li"><a href="">Disney</a></li>
         </ul>
-      </section>
-      <main>
+      </aside>
+      <main class="main-content">
         <div class="movie-box">
           <img src="img/avatar.jpeg" alt="avatar" />
           <div class="hover-info">
@@ -109,7 +113,7 @@
         </div>
       </main>
     </div>
-    <footer>All rights reserved</footer>
+    <footer class="main-footer">All rights reserved</footer>
     <script src="script.js"></script>
   </body>
 </html>

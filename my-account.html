@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-container">
+      <header class="main-header">
+        <h1>
+          <a href="index.html"> <span>Video</span>hallen</a>
+        </h1>
+        <nav>
+          <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="my-account.html">My Account</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main class="main-content">
+      <form class="signup-form">
+        <label class="signup-label" for="name">Name:</label>
+        <input
+          class="signup-input"
+          type="text"
+          id="name"
+          name="name"
+          required
+        />
+
+        <label class="signup-label" for="surname">Surname:</label>
+        <input
+          class="signup-input"
+          type="text"
+          id="surname"
+          name="surname"
+          required
+        />
+
+        <label class="signup-label" for="email">Email:</label>
+        <input
+          class="signup-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
+
+        <label class="signup-label" for="password">Password:</label>
+        <input
+          class="signup-input"
+          type="password"
+          id="password"
+          name="password"
+          required
+        />
+
+        <label class="signup-label" for="confirmPassword"
+          >Confirm Password:</label
+        >
+        <input
+          class="signup-input"
+          type="password"
+          id="confirmPassword"
+          name="confirmPassword"
+          required
+        />
+
+        <button class="signup-submit-button" type="submit">
+          Create Account
+        </button>
+      </form>
+    </main>
+    <footer class="main-footer">All rights reserved</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
