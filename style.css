@@ -117,8 +117,7 @@ img {
   line-height: 25px;
 }
 
-.movie-box:hover,
-.movie-box:active .hover-info {
+.movie-box:hover .hover-info {
   opacity: 1;
   transition: 0.2s ease-in-out;
 }
