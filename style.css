@@ -28,7 +28,7 @@ body {
   border-radius: 10px;
   opacity: 0.8;
 }
-span {
+.logo-span {
   color: red;
 }
 
@@ -188,7 +188,7 @@ a:hover {
     flex-direction: row;
   }
 
-  h1 {
+  .logo-h1 {
     margin-left: 35px;
   }
 
@@ -238,7 +238,7 @@ a:hover {
 }
 @media screen and (min-width: 1400px) {
   .movie-box {
-    height: 500px;
+    height: 550px;
   }
   .search-aside {
     max-width: 250px;
