@@ -92,6 +92,14 @@ span {
   padding: 30px 0;
 }
 
+.signup-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  margin-top: 180px;
+}
+
 .movie-box {
   position: relative;
   border-radius: 20px 20px 0 0;
@@ -102,9 +110,10 @@ span {
   background-size: 100% 100%;
   background-position: center;
   box-shadow: 0 0 10px red;
+  cursor: pointer;
 }
 
-img {
+.movie-img {
   width: 100%;
   height: 100%;
   border-radius: 20px 20px 0 0;
@@ -136,16 +145,6 @@ a:hover {
   color: rgb(203, 199, 199);
 }
 
-.main-footer {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 40px;
-  color: white;
-}
-
 .signup-form {
   background-color: #fff;
   padding: 20px;
@@ -174,7 +173,17 @@ a:hover {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1100px) {
+.main-footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
   .main-header {
     flex-direction: row;
   }
@@ -185,7 +194,7 @@ a:hover {
 
   .search-aside {
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 0 10px 40px 0;
   }
 
@@ -213,7 +222,7 @@ a:hover {
   }
 
   .movie-box {
-    height: 600px;
+    height: 400px;
     width: 20%;
     margin-bottom: 40px;
   }
@@ -221,5 +230,17 @@ a:hover {
   .movie-box:hover {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
+  }
+
+  .signup-form {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .movie-box {
+    height: 500px;
+  }
+  .search-aside {
+    max-width: 250px;
   }
 }
